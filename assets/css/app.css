@@ -1,0 +1,26 @@
+.wdz-modal article {
+    width: 500px;
+    height: 500px;
+    margin-left: -250px;
+    color: #47b667;
+    text-align: center;
+}
+
+.wdz-modal article h1 {
+    padding: 220px 0 20px 0;
+    font-size: 60px;
+}
+
+.wdz-modal article p { font-size: 20px; }
+
+@media screen and (max-width: 480px) {
+
+    .wdz-modal .table-responsive  {
+        width: 300px;
+        height: 300px;
+        margin-left: -150px;
+    }
+
+    .wdz-modal article h1 { padding-top: 130px; }
+
+}
